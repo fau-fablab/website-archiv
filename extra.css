@@ -1,0 +1,4 @@
+
+#site-name-wrapper, .block-webform, .block-user,  .search-box, .comment_add, #block-views-date_browser-block_1 {display:none !important;}
+#archiv-warning {font-size:150%; line-height:1.5em; text-align:center; padding-top:2em; padding-bottom:2em; color: #9E6100; background-color: #FFEFB2; border-radius:.3em; border:1px solid #424242;}
+.english {font-size:60%; font-style:italic; margin-top:.5em;}
