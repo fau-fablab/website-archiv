@@ -1,0 +1,2 @@
+# Simulieren, dass es die alte Webseite nicht mehr gibt
+Header set Content-Security-Policy "default-src 'https://www.fablab.fau.de/old/'"
