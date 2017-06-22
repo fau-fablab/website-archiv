@@ -5,7 +5,7 @@ mkdir -p archiv-raw
 cd archiv-raw
 # HTTrack mit ein paar Filtern:
 # Der Filter '-*"*' ist gegen einen Bug in httrack, das dann immer https://fablab.fau.de/bla/"https://fablab.fau.de/foo" ... laden will.
-# httrack --continue --update https://fablab.fau.de/ '-fablab.fau.de/wiki/*' '-fablab.fau.de/app/*' '-fablab.fau.de/user/*'  '-fablab.fau.de/comment/reply/*'  '-*"*' '-mime:application/rss+xml'
+httrack --continue --update https://fablab.fau.de/ '-fablab.fau.de/wiki/*' '-fablab.fau.de/app/*' '-fablab.fau.de/user/*'  '-fablab.fau.de/comment/reply/*'  '-*"*' '-mime:application/rss+xml'
 cd ..
 
 # TODO robots.txt
